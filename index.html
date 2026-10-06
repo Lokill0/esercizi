@@ -20,6 +20,7 @@
             <ul>
                 <li><a href="#chi-sono">Chi sono</a></li>
                 <li><a href="#competenze">Competenze</a></li>
+                <li><a href="#esperienze">Esperienze</a></li>
                 <li><a href="#progetti">Progetti</a></li>
                 <li><a href="#contatti">Contatti</a></li>
             </ul>
@@ -30,11 +31,17 @@
 
         <section id="chi-sono">
             <h2>Chi sono</h2>
+            
+
+            <div>
+                <img src="link.jpg" alt="Foto di Mario Rossi" aria-placeholder="foto profilo" title="Foto profilo" width="200" height="200">
+            </div>
+           
 
             <p>
                 Mi chiamo Mario Rossi e sto imparando a programmare.
                 Studio sviluppo web con <strong>Epicode</strong> e ogni giorno
-                aggiungo qualcosa di nuovo a questa pagina. Mi piace lavorare
+                aggiungo qualcosa di nuovo a questa pagina.<br> Mi piace lavorare
                 in gruppo, leggere documentazione tecnica e capire come
                 funzionano le cose.
             </p>
@@ -59,6 +66,50 @@
                 <li>Git e GitHub — versionamento del codice</li>
                 <li>Visual Studio Code — editor di lavoro</li>
             </ul>
+        </section>
+
+        <section id="esperienze">
+            <h2>Esperienze</h2> 
+            
+            <p>
+                Un riepilogo del mio percorso formativo e lavorativo recente.
+            </p>
+            <table>
+
+    <caption>Esperienze formative e lavorative</caption>
+
+<table>
+    <thead>
+        <tr>
+            <th>Anno</th>
+            <th>Ruolo</th>
+            <th>Azienda / Scuola</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>2026</td>
+            <td>Studente Full Stack</td>
+            <td>Epicode</td>
+        </tr>
+
+        <tr>
+            <td>2024 - 2025</td>
+            <td>Libraio</td>
+            <td>Libreria Centrale, Milano</td>
+        </tr>
+
+        <tr>
+            <td>2018 - 2022</td>
+            <td>Studente di Lettere</td>
+            <td>Università degli Studi di Milano</td>
+        </tr>
+
+    </tbody>
+
+</table>
         </section>
 
         <section id="progetti">
@@ -108,6 +159,42 @@
                 Profilo LinkedIn:
                 <a href="#">linkedin.com/in/mariorossi</a>
             </p>
+        </section>
+
+        <section>
+            <h2>Contattami</h2>
+
+            <p>Compila il form per scrivermi. Ti rispondo entro 24 ore.
+            </p>
+
+            <form action="/contatti" method="get">
+                <label for="Nome">Nome:</label>
+                <input type="text" id="Nome" name="Nome" placeholder="Inserisci il tuo nome" title="Inserisci il tuo nome completo"  required>
+                <br><br>
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" name="Email" placeholder="inserisci la tua email" title="inserisci la tua email" required>
+                <br><br>
+                <label for="Motivo">Motivo del contatto:</label>
+                <br>
+                <select id="Motivo" name="Motivo" required>
+                    <option value="Seleziona">Seleziona un opzione</option>
+                    <option value="be">Back-end</option>
+                    <option value="fe">Front-end</option>
+                    <option value="Fs">Full-stack</option>
+                </select>
+                <br><br>
+                 <label for="Data">Data:</label>
+                 <input type="date" id="Data" name="Data" required>
+                 <br><br>
+                <label for="Messaggio">Messaggio:</label>
+                <br>
+                <textarea id="Messaggio" name="Messaggio"rows="3" cols="30"required placeholder="inserisci il messaggio" title="inserisci il messaggio"></textarea>
+                <br><br>
+                <input type="radio" id="contatto" name="contatto" value="si" required>
+                <label for="contatto">Accetto di essere contattato all'indirizzo indicato</label>
+                <br><br>
+                <input type="submit" value="Invia">
+            </form>
         </section>
 
     </main>
