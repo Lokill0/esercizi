@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Impostazioni generali */
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+
+/* HEADER */
+
+header {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/034/956/464/small/man-working-as-programmer-writing-code-using-laptop-website-developer-coding-software-on-computer-screen-flat-illustration-template-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+
+/* Titolo principale */
+
+header h1 {
+    color: #ffffff;
+    font-style: italic;
+}
+
+
+/* Sottotitolo */
+
+header strong {
+    color: #F44A4A;
+}
+
+header p {
+    font-style: italic;
+}
+
+
+/* NAVBAR */
+
+
+nav li {
+    margin: 20px 0;
+}
+
+nav a {
+    color: hsl(67, 98%, 26%);
+    text-decoration: underline;
+}
+
+
+/* TITOLI DELLE SEZIONI */
+
+section h2 {
+    color: #1F3D7A;
+}
+
+
+/* SPAZIATURA DELLE SEZIONI */
+
+section {
+}
+
+
+/* LISTA COMPETENZE */
+
+#competenze li:nth-child(odd) {
+    background-color: #f1f3f8;
+}
+
+#competenze li {
+}
+
+
+/* PROGETTI */
+
+#progetti h3 {
+    background-color: #faf8ef;
+}
+
+
+/* LINK */
+
+a {
+    color: #0000ee;
+}
+
+a:hover {
+    color: #f8f4f4;
+}
+
+/* FORM */
+
+input,
+select,
+textarea {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* PULSANTE */
+
+input[type="submit"] {
+    background-color: hsl(220, 60%, 30%);
+    color: white;
+    border: none;
+    width: 123px;
+}
+
+
+/* PULSANTE AL PASSAGGIO DEL MOUSE */
+
+input[type="submit"]:hover {
+    background-color: hsl(220, 60%, 45%);
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #172136;
+    color: white;
+    text-align: center;
+}
